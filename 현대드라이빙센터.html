@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HMG 드라이빙 익스피리언스 센터</title>
+  <link rel="stylesheet" href="css/현대드라이빙센터.css">
+  <script src="lib/jquery-3.7.0.min.js"></script>
+  <script>
+    $(function () {
+      $('.section3 .inner .item_list li').mouseenter(function () {
+        $('.section3 .inner .item_list li').removeClass('on')
+        $(this).addClass('on')
+       
+      })
+      $('.section3 .inner .item_list li').click(function () {
+        $('.section3 .inner .img_box figure').removeClass('on')
+        $('.section3 .inner .img_box figure').eq($(this).index()).addClass('on')
+        $('.section3 .inner .item_list li').css({'color':'rgba(0, 0, 0, .55)'})
+        $(this).css({'color':'#000'})
+    })
+  })
+  </script>
+</head>
+
+<body>
+  <div id="wrap">
+    <div class="main_visual">
+      <div class="header">
+        <div class="inner">
+          <div class="logo">
+            <h1>
+              <img src="img/logo-white.svg" alt="logo" />
+            </h1>
+          </div><!-- logo end -->
+
+          <div class="menu">
+            <ul class="nav">
+              <li class="depth01">
+                <a href="https://drivingexperience.hyundai.co.kr/kr/hmg-driving-experience/about/contents">센터</a>
+                <div class="menu_list">
+                  <div class="menu_title">
+                    <h1>센터</h1>
+                    <p>특별한 경험과 즐거움을 제공하는<br />
+                      국내 최대 규모의 드라이빙 센터</p>
+                  </div><!-- menu_title end -->
+                  <ul class="list">
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/hmg-driving-experience/about/contents">센터 소개</a></li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/hmg-driving-experience/about/contents">트랙 안내</a></li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/hmg-driving-experience/about/contents">이용 안내</a></li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/hmg-driving-experience/about/contents">오시는길</a></li>
+                  </ul><!-- list end -->
+                </div><!-- menu_list end -->
+              </li><!-- depth01 end -->
+
+              <li class="depth01">
+                <a href="https://drivingexperience.hyundai.co.kr/kr/program-intro/contents">드라이빙 프로그램</a>
+                <div class="menu_list">
+                  <div class="menu_title">
+                    <h1>드라이빙프로그램</h1>
+                    <p>
+                      국내 최고 수준의 인스트럭터와 함께하는 <br />
+                      맞춤형 교육 프로그램
+                    </p>
+                  </div>
+                  <!-- menu_title end -->
+                  <ul class="list">
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/program-intro/contents">프로그램 개요</a></li>
+                    <li>
+                      <a href="#">드라이빙 익스피리언스</a>
+                      <ul class="depth02">
+                        <li>현대</li>
+                        <li>기아</li>
+                        <li>제네시스</li>
+                      </ul>
+                      <!-- depth02 end -->
+                    </li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/program-intro/contents">드라이빙 플레저</a>
+                      <ul class="depth02">
+                        <li>택시 드라이브</li>
+                        <li>HMG 테스트 드라이브</li>
+                        <li>HMG 주니어 드라이빙 익스피리언스</li>
+                        <li>HMG 드라이빙 익스피리언스 센터 투어</li>
+                        <li>HMG 시닉 드라이브</li>
+                      </ul><!-- depth02 end -->
+                    </li>
+                  </ul><!-- list end -->
+                </div><!-- menu_list end -->
+              </li><!-- depth01 end -->
+
+              <li class="depth01">
+                <a href="https://drivingexperience.hyundai.co.kr/kr/customer-center/notice/board/list?pageIndex=1&detailsKey=&ctgry=&ctgry2=&f=&q=">고객지원</a>
+                <div class="menu_list">
+                  <div class="menu_title">
+                    <h1>고객지원</h1>
+                    <p>
+                      현대자동차그룹의 차별화 된<br />
+                      고객지원 서비스
+                    </p>
+                  </div><!-- menu_title end -->
+                  <ul class="list">
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/customer-center/notice/board/list?pageIndex=1&detailsKey=&ctgry=&ctgry2=&f=&q=">공지사항</a></li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/customer-center/notice/board/list?pageIndex=1&detailsKey=&ctgry=&ctgry2=&f=&q=">FAQ</a></li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/customer-center/notice/board/list?pageIndex=1&detailsKey=&ctgry=&ctgry2=&f=&q=">Q&A</a></li>
+                  </ul><!-- list end -->
+                </div><!-- menu_list end -->
+              </li> <!-- depth01 end -->
+
+              <li class="depth01">
+                <a href="https://drivingexperience.hyundai.co.kr/kr/scheduleEvent/gallery/board/list?pageIndex=1&detailsKey=&ctgry=&ctgry2=&f=&q=">일정/이벤트</a>
+              </li><!-- depth01 end -->
+
+              <li class="depth01">
+                <a href="https://drivingexperience.hyundai.co.kr/kr/n-festival/about/index">현대 N 체험</a>
+                <div class="menu_list">
+                  <div class="menu_title">
+                    <h1>현대 N 체험</h1>
+                    <p>
+                      모터스포츠의 경험을 바탕으로<br />
+                      드라이빙 본연의 재미를 추구하는<br />
+                      현대 N 체험
+                    </p>
+                  </div>
+                  <!-- menu_title end -->
+                  <ul class="list">
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/n-festival/about/index">현대 N 페스티벌</a>
+                      <ul class="depth02">
+                        <li>소개</li>
+                        <li>스케줄</li>
+                        <li>Live & Video</li>
+                      </ul><!-- depth02 end -->
+                    </li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/n-festival/about/index">현대 N e-페스티벌</a>
+                      <ul class="depth02">
+                        <li>소개</li>
+                        <li>스케줄</li>
+                      </ul><!-- depth02 end -->
+                    </li>
+                    <li><a href="https://drivingexperience.hyundai.co.kr/kr/n-festival/about/index">현대 N 라운지</a>
+                      <ul class="depth02">
+                        <li>소개</li>
+                        <li>N 테스트랩</li>
+                      </ul><!-- depth02 end -->
+                    </li>
+                  </ul><!-- list end -->
+                </div><!-- menu_list end -->
+              </li> <!-- depth01 end -->
+            </ul><!-- nav end -->
+
+            <div class="login_box">
+              <ul class="login">
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li class="booking_btn"><a href="https://drivingexperience.hyundai.co.kr/kr/member-login?rtnUrl=/rsvtn/intro">예약하기</a>
+                  <ul class="depth02">
+                    <li>드라이빙 프로그램</li>
+                    <li>현대 N 페스티벌</li>
+                  </ul><!-- depth02 end -->
+                </li><!-- booking_btn -->
+              </ul><!-- login end  -->
+            </div><!-- login_box end -->
+
+          </div><!-- menu end -->
+        </div><!-- inner end -->
+      </div><!-- header end -->
+      <div class="main_inner">
+        <div class="main_text">
+          <h1>HMG<br />드라이빙 익스피리언스<br />센터 소개</h1>
+          <span>자세히 보기</span>
+        </div><!-- main_text end -->
+      </div><!-- main_inner end -->
+
+      <figure>
+        <img src="img/센터소개PC.jpg" alt="현대 센터소개 이미지">
+      </figure>
+
+      <div class="menu_list">
+
+      </div><!-- menu_list end -->
+
+    </div> <!-- main_visual end -->
+
+
+    <div class="section1">
+      <div class="inner">
+        <div class="title">
+          <h2>현대자동차그룹의<br />다양한 드라이빙 프로그램</h2>
+          <button>전체 프로그램 소개</button>
+        </div><!-- title end -->
+        <div class="item_list">
+          <div class="item">
+            <figure><img src="img/img-main-program1.jpg" alt="main_program"></figure>
+            <div class="text">
+              <div class="title">
+                <h2>드라이빙 익스피리언스</h2>
+                <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+              </div><!-- title end -->
+              <p>다양한 프로그램으로 기초부터 고급 테크닉까지 당신의 드라이빙 수준을 높여보세요.</p>
+            </div><!-- text end -->
+          </div><!-- item end -->
+
+          <div class="item">
+            <figure><img src="img/img-main-program2.jpg" alt="main_program2"></figure>
+            <div class="text">
+              <div class="title">
+                <h2>드라이빙 플레저</h2>
+                <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+              </div><!-- title end -->
+              <p>현대자동차그룹의 다양한 차량들을 경험하고 운전의 새로운 즐거움을 발견해 보세요.</p>
+            </div><!-- text end -->
+          </div><!-- item end -->
+        </div><!-- item_list end -->
+      </div>
+    </div><!-- section1 end -->
+
+    <div class="section2">
+      <div class="inner">
+        <div class="title">
+          <h1>현대 N의 세계를<br />경험하는 특별한 방법</h1>
+        </div><!-- title end -->
+        <div class="item_list">
+          <div class="item">
+            <figure><img src="img/img-main-hyundai-n1.jpg" alt="main_n1"></figure>
+            <div class="text">
+              <div class="title">
+                <h2>현대 N 페스티벌</h2>
+                <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+              </div><!-- title end -->
+              <p>우승을 향한 경쟁과 환희 그리고 드라마. 현대 N의 본질을 느끼는 원 메이크 레이스</p>
+            </div><!-- text end -->
+          </div><!-- item end -->
+
+          <div class="item">
+            <figure><img src="img/img-main-hyundai-n2.jpg" alt="main_n1"></figure>
+            <div class="text">
+              <div class="title">
+                <h2>현대 N 라운지</h2>
+                <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+              </div><!-- title end -->
+              <p>특별한 휴식 공간에서 여유롭게 즐기는 현대 N 라이프 스타일</p>
+            </div><!-- text end -->
+          </div><!-- item end -->
+        </div><!-- item_list end -->
+      </div><!-- inner end -->
+    </div><!-- section2 end -->
+
+    <div class="section3">
+      <div class="inner">
+        <div class="title">
+          <div>
+            <h1>국내 최대 규모의<br />HMG 드라이빙 익스피리언스 센터</h1>
+            <span>※ HMG : Hyundai Motor Group</span>
+          </div>
+          <button>센터 소개</button>
+        </div><!-- title end -->
+        <div class="img_box">
+          <figure class="on">
+            <img src="img/img-main-center-roll1.jpg" alt="img1">
+          </figure>
+          <figure>
+            <img src="img/img-main-center-roll2.jpg" alt="img2">
+          </figure>
+          <figure>
+            <img src="img/img-main-center-roll3.jpg" alt="img3">
+          </figure>
+          <figure>
+            <img src="img/img-main-center-roll4.jpg" alt="img4">
+          </figure>
+        </div><!-- img_box end -->
+        <ul class="item_list">
+          <li class="on">8개의 다양한<br />
+            체험트랙과 체험존</li>
+          <li>라이프스타일을 빛내는<br />
+            현대자동차그룹 브랜드샵</li>
+          <li>트랙을 풍경으로 즐기는 <br />
+            미식 여행</li>
+          <li>아이가 재밌게 참가할 수 있는<br />
+            HMG 주니어 드라이빙 익스피리언스</li>
+        </ul><!-- item_list end -->
+      </div><!-- inner end -->
+    </div><!-- section3 end -->
+
+    <div class="section4">
+      <div class="inner">
+        <div class="item_list">
+          <div class="item">
+            <div class="title">
+              <h2>공지사항</h2>
+              <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+            </div><!-- title end -->
+            <ul class="info_list">
+              <li class="info"><a href="#">
+                  <p>2023 현대 N 페스티벌 Round3 참가접수 안내</p>
+                  <span>2023.07.10</span>
+                </a></li><!-- info end -->
+              <li class="info"><a href="#">
+                  <p>2023 현대 N 페스티벌 N타임트라이얼 Round2 참가접수 안내</p>
+                  <span>2023.06.26</span>
+                </a></li><!-- info end -->
+              <li class="info"><a href="#">
+                  <p>2023 현대 N 페스티벌 Round2 참가접수 안내</p>
+                  <span>2023.06.05</span>
+                </a></li><!-- info end -->
+              <li class="info"><a href="#">
+                  <p>2023 현대 N 페스티벌 N타임트라이얼 Round1 참가접수 안내</p>
+                  <span>2023.05.08</span>
+                </a></li><!-- info end -->
+            </ul><!-- info_list end -->
+          </div><!-- item end -->
+
+          <div class="item">
+            <div class="title">
+              <h2>일정/이벤트</h2>
+              <figure><img src="img/icon-color-arrow-real.svg" alt="arrow"></figure>
+            </div><!-- title end -->
+            <div class="event_list">
+              <div class="event">
+                <figure><img src="img/11월-운영일정썸네일.jpg" alt="11월 운영일정"></figure>
+                <div class="text">
+                  <p>2023년 HMG 드라이빙 익스피리언스 11월 운영 공지</p>
+                  <span>2023.10.10</span>
+                </div><!-- text end -->
+              </div><!-- event end -->
+
+              <div class="event">
+                <figure><img src="img/10월-운영일정-공지-썸네일-B안.jpg" alt="10월 운영일정"></figure>
+                <div class="text">
+                  <p>2023년 HMG 드라이빙 익스피리언스 10월 운영 공지</p>
+                  <span>2023.09.05</span>
+                </div><!-- text end -->
+              </div><!-- event end -->
+
+              <div class="event">
+                <figure><img src="img/9월-운영일정-썸네일.jpg" alt="9월 운영일정"></figure>
+                <div class="text">
+                  <p>2023년 HMG 드라이빙 익스피리언스 9월 운영 공지</p>
+                  <span>2023.07.31</span>
+                </div><!-- text end -->
+              </div><!-- event end -->
+            </div><!-- event_list end -->
+          </div><!-- item end -->
+        </div><!-- item_list end -->
+      </div><!-- inner end -->
+    </div><!-- section4 end -->
+
+    <footer>
+      <div class="inner">
+        <div class="fir">
+          <ul>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보 처리방침</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Q&A</a></li>
+            <li><a href="#">오시는 길</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+
+          <div class="select">
+            <select name="family" id="family">
+              <option label="패밀리사이트">패밀리사이트</option>
+              <option label="패밀리사이트">현대자동차</option>
+              <option label="패밀리사이트">기아</option>
+              <option label="패밀리사이트">제네시스</option>
+              <option label="패밀리사이트">현대자동차그룹</option>
+              <option label="패밀리사이트">N</option>
+              <option label="패밀리사이트">현대 모터스포츠</option>
+              <option label="패밀리사이트">글로벌 현대 드라이빙 익스피리언스</option>
+              <option label="패밀리사이트">운전연수는 운전결심</option>
+            </select>
+            <button>이동</button>
+          </div><!-- select end -->
+        </div><!-- fir end -->
+        <div class="footer_text">
+          <div class="left">
+            <div>
+              <p>현대자동차(주)</p>
+              <div class="text">
+
+                <span>대표자명 : 장재훈 / 사업자등록번호 : 101-81-0914706797 / 서울시 서초구 헌릉로 12 (양재동)</span>
+              </div>
+            </div>
+
+            <div>
+              <p>(주)이노션 <span>* HMG 드라이빙 익스피리언스</span></p>
+              <div class="text">
+                <span>대표자명 : 이용우 / 사업자등록번호 : 220-87-0931006253 / 서울시 강남구 강남대로 308 (역삼동)</span> </br>
+                <span>통신판매업신고 : 제2011-서울강남-01722호 / 고객센터 : 02-541-3252 / Fax : 02-541-3277</span></br>
+                <span>E-mail : hmgdrivingexperience@innocean.com / 운영 대행 : HMG 드라이빙 익스피리언스</span>
+              </div>
+            </div>
+
+            <div>
+              <p> (주)플레이그라운드코리아<span>* 현대 N 페스티벌</span></p>
+              <div class="text">
+
+                <span>대표자명 : 김종남 / 사업자등록번호 : 316-81-2671516006 / 경기도 의왕시 이미로 40 인덕원IT밸리 C동 610호, 611호</span> </br>
+                <span>통신판매업신고 : 제2017-경기의왕-0037호 / 고객센터 : 070-4773-7670~2 / Fax : 070-4773-7675</span> </br>
+                <span>E-mail : manager@playgroundkorea.com / 운영 대행 : 현대 N 페스티벌</span>
+              </div>
+            </div>
+            <span class="copy">ⓒ 2022. HYUNDAI MOTOR COMPANY. All rights reserved.</span>
+          </div><!-- left end -->
+          <div class="right">
+            <span>센터 운영시간 (금, 토, 일)
+              <strong>09:00 ~ 18:00</strong></span>
+            <div class="img">
+              <figure><img src="img/icon-wa-mark-pc.png" alt="웹접근성 마크"></figure>
+            </div><!-- img end -->
+            <div class="sns_icon">
+              <figure><img src="img/icon-sns-facebook.svg" alt="페이스북 아이콘"></figure>
+              <figure><img src="img/icon-sns-youtube.svg" alt="유튜브 아이콘"></figure>
+              <figure><img src="img/icon-sns-insta.svg" alt="인스타그램 아이콘"></figure>
+            </div><!-- sns_icon end -->
+          </div><!-- right end -->
+        </div><!-- footer_text end -->
+      </div><!-- inner end -->
+    </footer>
+
+  </div> <!-- wrap end -->
+</body>
+
+</html>
